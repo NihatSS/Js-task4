@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cities{
+    background-color: #F1F1F1;
+    border: 1px solid #CCCCCC;
+}
+
+.city button{
+    font-size: 20px;
+    border: 0;
+    padding: 10px;
+    background-color: #F1F1F1;
+    transition: all 0.25s;
+}
+
+.city button:hover{
+    background-color: #dddddd;
+}
+
+.city .content{
+    position: absolute;
+    left: 125px;
+    top: 120px;
+}
